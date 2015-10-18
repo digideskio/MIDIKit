@@ -62,12 +62,12 @@
 		528C945B18FC919800A7B960 /* MIDIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C945A18FC919800A7B960 /* MIDIKit.m */; };
 		528C945C18FC919800A7B960 /* MIDIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C945A18FC919800A7B960 /* MIDIKit.m */; };
 		528C945D18FC919800A7B960 /* MIDIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C945A18FC919800A7B960 /* MIDIKit.m */; };
-		5296F88A18FF3B1100682874 /* MKEnumerableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5296F88818FF3B1100682874 /* MKEnumerableObject.h */; };
+		5296F88A18FF3B1100682874 /* MKEnumerableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5296F88818FF3B1100682874 /* MKEnumerableObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5296F88B18FF3B1100682874 /* MKEnumerableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5296F88818FF3B1100682874 /* MKEnumerableObject.h */; };
 		5296F88C18FF3B1100682874 /* MKEnumerableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296F88918FF3B1100682874 /* MKEnumerableObject.m */; };
 		5296F88D18FF3B1100682874 /* MKEnumerableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296F88918FF3B1100682874 /* MKEnumerableObject.m */; };
 		5296F88E18FF3B1100682874 /* MKEnumerableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296F88918FF3B1100682874 /* MKEnumerableObject.m */; };
-		529BF7FE18FDACED001C0BB7 /* MKServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 529BF7FC18FDACED001C0BB7 /* MKServer.h */; };
+		529BF7FE18FDACED001C0BB7 /* MKServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 529BF7FC18FDACED001C0BB7 /* MKServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		529BF7FF18FDACED001C0BB7 /* MKServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 529BF7FC18FDACED001C0BB7 /* MKServer.h */; };
 		529BF80018FDACED001C0BB7 /* MKServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BF7FD18FDACED001C0BB7 /* MKServer.m */; };
 		529BF80118FDACED001C0BB7 /* MKServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BF7FD18FDACED001C0BB7 /* MKServer.m */; };
@@ -107,6 +107,8 @@
 		52B33F6519006750006B1699 /* libMIDIKitiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 524005E418FB06CD0030B46D /* libMIDIKitiOS.a */; };
 		52B33F6619006857006B1699 /* LPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C944B18FC8FD900A7B960 /* LPMessage.m */; };
 		52DDEDEF18FB55400019BE98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273C70F18DEA14E00A8CFD4 /* Foundation.framework */; };
+		C11A03331BD4314D00C3AD52 /* MIDIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A1E07618FB883000D7073F /* MIDIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11A03341BD4321300C3AD52 /* MKObjectProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A786BE18FCE5E60064E313 /* MKObjectProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -645,13 +647,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11A03331BD4314D00C3AD52 /* MIDIKit.h in Headers */,
 				52B22EFE18F7C86900A5A5D3 /* MKConnection.h in Headers */,
 				5273C73718DEAD5700A8CFD4 /* MKDevice.h in Headers */,
 				52B22EF818F7B80900A5A5D3 /* MKVirtualDestination.h in Headers */,
 				52B22EF018F7A6C600A5A5D3 /* MKOutputPort.h in Headers */,
 				52B22EF418F7B65D00A5A5D3 /* MKVirtualSource.h in Headers */,
 				528C943D18FC774100A7B960 /* MKDestination.h in Headers */,
-				5296F88A18FF3B1100682874 /* MKEnumerableObject.h in Headers */,
 				5240064D18FB15050030B46D /* MKThruConnection.h in Headers */,
 				528C944118FC7FC000A7B960 /* MKSource.h in Headers */,
 				52B22F0518F803E900A5A5D3 /* MKMessage.h in Headers */,
@@ -659,7 +661,9 @@
 				5273C73B18DEADB800A8CFD4 /* MKEntity.h in Headers */,
 				529BF7FE18FDACED001C0BB7 /* MKServer.h in Headers */,
 				5273C70418DE9A9800A8CFD4 /* MKObject.h in Headers */,
+				5296F88A18FF3B1100682874 /* MKEnumerableObject.h in Headers */,
 				5273C70818DE9E2500A8CFD4 /* MKClient.h in Headers */,
+				C11A03341BD4321300C3AD52 /* MKObjectProperties.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

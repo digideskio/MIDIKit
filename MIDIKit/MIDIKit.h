@@ -6,20 +6,20 @@
 //  Copyright (c) 2014 John Heaton. All rights reserved.
 //
 
-#import "MKClient.h"
-#import "MKConnection.h"
-#import "MKDevice.h"
-#import "MKEntity.h"
-#import "MKInputPort.h"
-#import "MKMessage.h"
-#import "MKObject.h"
-#import "MKOutputPort.h"
-#import "MKThruConnection.h"
-#import "MKVirtualDestination.h"
-#import "MKVirtualSource.h"
-#import "MKSource.h"
-#import "MKDestination.h"
-#import "MKServer.h"
+#import <MIDIKit/MKClient.h>
+#import <MIDIKit/MKConnection.h>
+#import <MIDIKit/MKDevice.h>
+#import <MIDIKit/MKEntity.h>
+#import <MIDIKit/MKInputPort.h>
+#import <MIDIKit/MKMessage.h>
+#import <MIDIKit/MKObject.h>
+#import <MIDIKit/MKOutputPort.h>
+#import <MIDIKit/MKThruConnection.h>
+#import <MIDIKit/MKVirtualDestination.h>
+#import <MIDIKit/MKVirtualSource.h>
+#import <MIDIKit/MKSource.h>
+#import <MIDIKit/MKDestination.h>
+#import <MIDIKit/MKServer.h>
 
 #define kMIDIKitVersionMajor 0
 #define kMIDIKitVersionMinor 2

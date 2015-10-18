@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreMIDI/CoreMIDI.h>
 #import <JavaScriptCore/JavaScriptCore.h>
-#import "MKObjectProperties.h"
+#import <MIDIKit/MKObjectProperties.h>
 
 @class MKJavaScriptContext, MKObject;
 @protocol MKObjectJS <JSExport>
