@@ -1155,8 +1155,9 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = "MIDIKit/MIDIKit-Info.plist";
-				LD_DYLIB_INSTALL_NAME = "@executable_path/$(EXECUTABLE_PATH)";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = MIDIKit;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -1176,8 +1177,9 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = "MIDIKit/MIDIKit-Info.plist";
-				LD_DYLIB_INSTALL_NAME = "@executable_path/$(EXECUTABLE_PATH)";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = MIDIKit;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
